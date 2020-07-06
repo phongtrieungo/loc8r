@@ -1,4 +1,4 @@
-const index = (req, res) => res.render('index', { title: 'Location page'});
+const index = (req, res) => res.render('location-list', { title: 'Location page'});
 const detail = (req, res) => res.render('index', { title: 'Location Detail page'});
 const addReview = (req, res) => res.render('index', { title: 'Add Review page'});
 
