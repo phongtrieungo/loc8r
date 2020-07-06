@@ -1,6 +1,6 @@
-const index = (req, res) => res.render('location-list', { title: 'Location page'});
-const detail = (req, res) => res.render('index', { title: 'Location Detail page'});
-const addReview = (req, res) => res.render('index', { title: 'Add Review page'});
+const index = (req, res) => res.render('location-list', { title: 'Location'});
+const detail = (req, res) => res.render('location-info', { title: 'Location Detail'});
+const addReview = (req, res) => res.render('location-review-form', { title: 'Add Review'});
 
 module.exports = {
     index,
